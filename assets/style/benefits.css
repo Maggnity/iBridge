@@ -1,0 +1,59 @@
+.benefits {
+    width: 100%;
+}
+
+.head {
+    padding-left: 6.5rem;
+}
+
+.title{
+    font-family: var(--font-principal);
+    font-weight: 700;
+    font-size: 1.6em;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.subtitle {
+    font-family: var(--font-principal);
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--cinza);
+    font-size: 1.1em;
+}
+
+.cards-benefits {
+    display: flex;
+}
+
+.card-img {
+    margin-top: 2rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: var(--preto);
+    margin-top: 1.25rem;
+}
+
+.cards-group {
+    margin-left: 7.4rem;
+    margin-right: 7.4rem;
+}
+
+.card-benefits {
+    
+}
+
+.benefits-list {
+    padding: 1rem 1.875rem;
+}
+
+.benefits-list__item {
+    font-family: var(--font-principal);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--cinza);
+    font-style: normal;
+    font-weight: 400;
+}

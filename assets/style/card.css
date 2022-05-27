@@ -1,0 +1,42 @@
+@import '/assets/style/_variables.css';
+
+.card-form {
+    width: 35%;
+    float: right;
+    margin-right: 80px;
+    margin-top: 2.69rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-principal);
+    border: 1px;
+    border-color: #d9d9d9;
+    -webkit-box-shadow: 4px 4px 20px 20px rgba(0,0,0,0.15); 
+    box-shadow: 4px 4px 20px rgba(0,0,0,0.15);
+}
+
+.head-card {
+    padding: 2.19rem 2.19rem 0rem 2.19rem;
+}
+
+.head-card-content{
+    font-size: 1.25rem;
+}
+
+.head-card-content-secondary {
+    font-size: 1rem;
+    color: var(--cinza);
+}
+
+.formulario{
+    padding: 1rem 2.18rem;
+}
+
+.form-label {
+    font-size: 0.8em;
+}
+
+.data-submit {
+    color: white;
+    border-radius: 50px;
+    width: 100%;
+    background-color: var(--verde);
+}

@@ -1,75 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import '/assets/style/_variables.css';
 
-
+.banner-content{
+    display: flex;
+}
 .text-area {
     float: left;
-    position: absolute;
-    padding: 10rem 6rem;
+    padding-left: 6.5rem;
+    padding-top: 10rem;
 }
 
 .content {
-    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 1.6em;
     width: 60%;
 }
 
 .secondary-content {
-    font-family: 'Montserrat';
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #717b8b;
     width: 40%;
     font-size: 1.1em;
 }
 
 .elipse {
-    float: left;
-    width: 1679px;
-    height: 990px;
-    margin:20px;
+    width: 105rem;
+    height: 62rem;
+    margin:1.25px;
     position: absolute;
-    left: -130px;
-    top: -421px;
+    left: -8rem;
+    top: -26.3rem;
     shape-outside: ellipse(50% 50%);
     clip-path: ellipse(50% 50%);
     background: linear-gradient(#bce93c, #71dc3f);
     z-index: -1;
 }
 
-.card {
-    width: 25%;
-    float: right;
-    margin-right: 80px;
-    margin-top: 43px;
-    font-family: 'Montserrat';
-}
-
-.head-card {
-    padding: 2.19rem 2.19rem 0rem 2.19rem;
-}
-
-.head-card-content{
-    font-size: 1.25rem;
-}
-
-.head-card-content-secondary {
-    font-size: 1rem;
-    color: #717b8b;
-}
-
-.formulario{
-    padding: 2.18rem;
-}
-
-.form-label {
-    font-size: 0.8em;
-}
-
-.data-submit {
-    color: white;
-    border-radius: 50px;
-    width: 100%;
-    background-color: #71dc3f;
-}

@@ -1,1 +1,8 @@
---font-principal {font-family: 'Montserrat'}
+:root {
+    --font-principal: Montserrat;
+    --preto: #000000;
+    --cinza: #717b8b;
+    --verde: #71dc3f;
+    --verde-claro: #bce93b;
+
+}

@@ -1,3 +1,17 @@
 .integration {
-    position: absolute;
+    margin-top:  100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.integration-content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.integration-title {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }

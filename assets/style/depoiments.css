@@ -1,0 +1,45 @@
+@import '_variables.css';
+
+.depoiment {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    background-color: var(--cinza-claro);
+}   
+
+.depoiment-title {
+    font-size: 1.875rem;
+}
+
+.depoiment-subtitle {
+    color: var(--cinza);
+}
+
+.aspas{
+    height: 40px;
+    top: -20px;
+}
+
+.depoiment-cards {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.depoiment-card{
+    border-radius: 10px;
+    max-width: 540px;
+}
+
+.img-card {
+    padding: 20px;
+}
+
+.card-name {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.card-text {
+    color: var(--cinza);
+    font-weight: 400;
+}

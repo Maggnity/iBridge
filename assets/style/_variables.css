@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 :root {
     --font-principal: Montserrat;
     --preto: #000000;
     --cinza: #717b8b;
+    --cinza-claro: #f2f2f2;
     --verde: #71dc3f;
     --verde-claro: #bce93b;
-
+    --margin: 50px;
 }
+
+

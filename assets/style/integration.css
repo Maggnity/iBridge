@@ -4,14 +4,16 @@
     text-align: center;
 }
 
-.integration-content {
+.integration-title {
+    font-weight: 600;
+} 
+
+.integration-logos {
+    display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin-top: 20px;
 }
 
-.integration-title {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.integration-logo {
+padding: 0 10px;
 }

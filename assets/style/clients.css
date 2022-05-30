@@ -8,3 +8,12 @@
     margin-bottom: 30px;
     font-weight: 600;
 }
+
+.clients-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.client-logo {
+    padding: 0 10px;
+}

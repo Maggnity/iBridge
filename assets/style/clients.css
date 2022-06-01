@@ -17,3 +17,13 @@
 .client-logo {
     padding: 0 10px;
 }
+
+@media(max-width:768px){
+    .clients-logo {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .client-logo {
+        padding: 10px;
+    }
+}

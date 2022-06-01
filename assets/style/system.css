@@ -11,6 +11,7 @@
 }
 
 .system-title {
+    font-weight: 600;
 }
 
 .system-list {
@@ -33,9 +34,26 @@
 }
 
 .system-imgs {
+    transform: rotate(5deg);
     display: flex;
+    padding: 0;
 }
 
 .system-img {
-    width: 50%;
+    width: 55%;
+}
+
+.ml-5 {
+    margin-left: 40px;
+}
+
+@media(max-width:768px){
+    .system-content {
+        flex-direction: row;
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+    .system-img{
+        width: 40%;
+    }
 }

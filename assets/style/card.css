@@ -4,12 +4,14 @@
     float: right;
     margin-right: 0px;
     margin-top: 2.69rem;
-    margin-bottom: 1rem;
+    margin-bottom: 20px;
     font-family: var(--font-principal);
     border: 1px;
     border-color: #d9d9d9;
     -webkit-box-shadow: 4px 4px 20px 20px rgba(0,0,0,0.15); 
     box-shadow: 4px 4px 20px rgba(0,0,0,0.15);
+    min-width: 300px;
+    max-width: 350px;
 }
 
 .head-card {
@@ -17,26 +19,26 @@
 }
 
 .head-card-content{
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: 600;
 }
 
 .head-card-content-secondary {
-    font-size: 1rem;
+    font-size: 16px;
     color: var(--cinza);
 }
 
 .formulario{
-    padding: 1rem 2.18rem;
+    padding: 15px 40px;
 }
 
 .form-label {
-    font-size: 0.8em;
+    font-size: 14px;
     font-weight: 500;
 }
 
 .form-control{
-    font-size: 0.8rem;
+    font-size: 14px;
 }
 
 .data-submit {

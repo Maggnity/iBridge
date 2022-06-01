@@ -1,5 +1,11 @@
 @import '/assets/style/_variables.css';
 
+.banner{
+    background-image: url('/assets/img/elipse.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
 .banner-content{
     display: flex;
 }
@@ -11,26 +17,26 @@
 
 .banner-title {
     font-weight: 700;
-    font-size: 1.6em;
+    font-size: 30px;
 }
 
 .banner-subtitle {
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 20px;
     color: #717b8b;
-    font-size: 1.1em;
+    font-size: 20px;
 }
 
-.elipse {
-    width: 105rem;
-    height: 62rem;
-    margin:1.25px;
-    position: absolute;
-    left: -8rem;
-    top: -26.3rem;
-    shape-outside: ellipse(50% 50%);
-    clip-path: ellipse(50% 50%);
-    background: linear-gradient(#bce93c, #71dc3f);
-    z-index: -1;
-}
 
+@media(max-width:768px){
+    .banner-content{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .text-area {
+        margin: 10px;
+        padding: 0;
+    }
+}

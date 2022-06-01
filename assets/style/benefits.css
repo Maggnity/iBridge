@@ -1,21 +1,19 @@
 .benefits {
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .benefits-title{
-    font-family: var(--font-principal);
     font-weight: 600;
-    font-size: 1.6em;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+    font-size: 30px;
 }
 
 .benefits-subtitle {
-    font-family: var(--font-principal);
     font-weight: 500;
-    font-size: 1.25rem;
+    font-size: 20px;
     color: var(--cinza);
-    font-size: 1.1em;
+    font-size: 20px;
     padding-top: 70px;
 }
 
@@ -24,13 +22,14 @@
 }
 
 .card-img {
-    margin-top: 2rem;
+    margin-top: 30px;
 }
 
 .card-title {
-    font-size: 1.25rem;
+    font-size: 20px;
     color: var(--preto);
-    margin-top: 1.25rem;
+    margin-top: 20px;
+    padding: 0 5px;
 }
 
 .cards-group {
@@ -46,18 +45,24 @@
     box-shadow: 4px 4px 20px rgba(0,0,0,0.1);
     border-radius: 5px;
     display: flex;
-
+    min-width: 320px;
 }
 
 .benefits-list {
-    padding: 1rem 1.875rem;
+    padding: 16px 30px;
 }
 
 .benefits-list__item {
-    font-family: var(--font-principal);
     font-weight: 500;
     font-size: 14px;
     color: var(--cinza);
     font-style: normal;
     font-weight: 400;
+}
+
+@media(max-width:768px){
+    .cards-group {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }

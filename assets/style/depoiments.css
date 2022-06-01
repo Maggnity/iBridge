@@ -4,10 +4,11 @@
     padding-top: 65px;
     padding-bottom: 65px;
     background-color: var(--cinza-claro);
+    font-size: 20px;
 }   
 
 .depoiment-title {
-    font-size: 1.875rem;
+    font-size: 30px;
 }
 
 .depoiment-subtitle {
@@ -17,6 +18,8 @@
 .aspas{
     height: 40px;
     top: -20px;
+    left: -130px;
+    position: relative;
 }
 
 .depoiment-cards {
@@ -28,6 +31,7 @@
 .depoiment-card{
     border-radius: 10px;
     max-width: 540px;
+    margin: 10px;
 }
 
 .img-card {
@@ -36,10 +40,22 @@
 
 .card-name {
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 .card-text {
     color: var(--cinza);
     font-weight: 400;
+}
+
+@media(max-width:1000px){
+    .depoiment-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img-card {
+        width: 50%;
+    }
 }

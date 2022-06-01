@@ -17,3 +17,14 @@
 .integration-logo {
 padding: 0 10px;
 }
+
+@media(max-width:768px){
+    .integration-logos {
+        flex-direction: row;
+        flex-wrap: wrap;    
+    }
+
+    .integration-logo{
+        padding: 10px;
+    }
+}

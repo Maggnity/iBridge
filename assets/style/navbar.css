@@ -8,3 +8,7 @@
     font-weight: 600;
     color: var(--preto);
 }
+
+.navbar-toggler-icon {
+    color: var(--preto);
+}
